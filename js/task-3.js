@@ -16,7 +16,6 @@ class StringBuilder {
 
     padEnd(str) {
         this.#value = this.#value.padEnd(3, str);
-
     }
 
     padBoth(str) {
